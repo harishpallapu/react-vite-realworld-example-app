@@ -3,7 +3,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh'
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/',
   server: {
     host: true,
   },
